@@ -1,5 +1,3 @@
-# Windows Terminal SSH Profile Creator (Tkinter GUI)
-# Author: ChatGPT
 from pathlib import Path
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
@@ -10,7 +8,7 @@ import uuid
 import shutil
 from datetime import datetime
 
-APP_TITLE = "Windows Terminal SSH Profile Creator"
+APP_TITLE = "Terminal SSH Profile Creator"
 SCHEMA_URL = "https://aka.ms/terminal-profiles-schema"
 
 MS_STORE = Path(os.path.expandvars(r"%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"))
